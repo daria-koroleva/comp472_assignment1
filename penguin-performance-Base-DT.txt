@@ -1,0 +1,30 @@
+A)Model: Decision Tree (Base-DT)
+Hyperparameters: Default Parameters
+--------------------------------------------------
+B)
+Confusion Matrix:
+[[37  3  0]
+ [ 0 13  0]
+ [ 0  0 31]]
+
+--------------------------------------------------
+C):
+              precision    recall  f1-score   support
+
+      Adelie       1.00      0.93      0.96        40
+   Chinstrap       0.81      1.00      0.90        13
+      Gentoo       1.00      1.00      1.00        31
+
+    accuracy                           0.96        84
+   macro avg       0.94      0.97      0.95        84
+weighted avg       0.97      0.96      0.97        84
+
+--------------------------------------------------
+D):
+
+Accuracy: 0.9643
+Macro-average F1: 0.9525
+Weighted-average F1: 0.9654
+
+**********************************************************************
+
