@@ -1,0 +1,32 @@
+A)
+Top-MLP: Multi-Layered Perceptron with GridSearch
+Best Hyperparameters: {'activation': 'relu', 'hidden_layer_sizes': (30, 50), 'max_iter': 200, 'solver': 'adam'}
+
+--------------------------------------------------
+B)
+Confusion Matrix:
+[[ 0 13 21]
+ [ 0 15  4]
+ [ 0 27  4]]
+
+--------------------------------------------------
+C)
+              precision    recall  f1-score   support
+
+      Adelie       1.00      0.00      0.00        34
+   Chinstrap       0.27      0.79      0.41        19
+      Gentoo       0.14      0.13      0.13        31
+
+    accuracy                           0.23        84
+   macro avg       0.47      0.31      0.18        84
+weighted avg       0.52      0.23      0.14        84
+
+--------------------------------------------------
+D)
+
+Accuracy: 0.2262
+Macro-average F1: 0.1796
+Weighted-average F1: 0.1409
+
+**************************************************
+
