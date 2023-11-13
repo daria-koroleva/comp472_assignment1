@@ -1,0 +1,183 @@
+5(a)
+(A) Base-DT-max_depth=8
+--------------------------------------------------
+
+(B) Confusion Matrix:
+
+[[41  0  0]
+ [ 1 17  0]
+ [ 0  0 25]]
+--------------------------------------------------
+
+
+(C) Classification metrics:
+
+              precision    recall  f1-score   support
+
+      Adelie       0.98      1.00      0.99        41
+   Chinstrap       1.00      0.94      0.97        18
+      Gentoo       1.00      1.00      1.00        25
+
+    accuracy                           0.99        84
+   macro avg       0.99      0.98      0.99        84
+weighted avg       0.99      0.99      0.99        84
+
+--------------------------------------------------
+
+
+(D) Accuracy: 0.9881
+
+Macro-average F1: 0.9865
+
+Weighted-average F1: 0.9880
+
+--------------------------------------------------
+
+6(a)
+(A) Accuracy: Mean = 0.9857142857142858, Variance =2.2675736961451505e-05
+(B) Macro Average F1: Mean = 0.9836592307605774, Variance = 3.1380061479688705e-05
+(C) Weighted Average F1: Mean = 0.9855522369590405 , Variance = 2.3905225978500766e-05
+**********************************************************************
+
+5(b)
+(A) Top-DT-criterion={best_params['criterion']}-max_depth=None-min_samples_split=2
+--------------------------------------------------
+
+(B) Confusion Matrix:
+
+[[41  0  0]
+ [ 1 17  0]
+ [ 0  0 25]]
+--------------------------------------------------
+
+
+(C) (D) Classification metrics:
+
+              precision    recall  f1-score   support
+
+      Adelie       0.98      1.00      0.99        41
+   Chinstrap       1.00      0.94      0.97        18
+      Gentoo       1.00      1.00      1.00        25
+
+    accuracy                           0.99        84
+   macro avg       0.99      0.98      0.99        84
+weighted avg       0.99      0.99      0.99        84
+
+--------------------------------------------------
+
+6(b)
+(A) Accuracy: Mean = 0.9880952380952381, Variance =0.0
+(B) Macro Average F1: Mean = 0.9864601262191623, Variance = 0.0
+(C) Weighted Average F1: Mean = 0.9879968855011884 , Variance = 0.0
+**********************************************************************
+
+5(c)
+A)
+
+Base-MLP: Multi-Layered Perceptron
+
+Hyperparameters:
+
+Hidden Layer Sizes: (100, 100)
+
+Activation Function: Logistic
+
+Solver: Stochastic Gradient Descent (SGD)
+
+
+--------------------------------------------------
+
+B)
+
+Confusion Matrix:
+
+[[41  0  0]
+ [18  0  0]
+ [25  0  0]]
+
+
+--------------------------------------------------
+
+C)
+
+              precision    recall  f1-score   support
+
+      Adelie       0.49      1.00      0.66        41
+   Chinstrap       0.00      0.00      0.00        18
+      Gentoo       0.00      0.00      0.00        25
+
+    accuracy                           0.49        84
+   macro avg       0.16      0.33      0.22        84
+weighted avg       0.24      0.49      0.32        84
+
+
+--------------------------------------------------
+
+D)
+
+
+Accuracy: 0.4881
+
+Macro-average F1: 0.2187
+
+Weighted-average F1: 0.3202
+
+--------------------------------------------------
+
+6(c)
+(A) Accuracy: Mean = 0.488095238095238, Variance =3.0814879110195774e-33
+(B) Macro Average F1: Mean = 0.21866666666666665, Variance = 0.0
+(C) Weighted Average F1: Mean = 0.32019047619047614 , Variance = 0.0
+**********************************************************************
+
+5(d)
+A)Top-MLP: Multi-Layered Perceptron with GridSearch
+
+Best Hyperparameters: {'activation': 'tanh', 'hidden_layer_sizes': (30, 50), 'max_iter': 200, 'solver': 'adam'}
+
+
+--------------------------------------------------
+
+B)
+
+Confusion Matrix:
+
+[[40  0  1]
+ [18  0  0]
+ [ 4  0 21]]
+
+
+--------------------------------------------------
+
+C)
+
+              precision    recall  f1-score   support
+
+      Adelie       0.65      0.98      0.78        41
+   Chinstrap       0.00      0.00      0.00        18
+      Gentoo       0.95      0.84      0.89        25
+
+    accuracy                           0.73        84
+   macro avg       0.53      0.61      0.56        84
+weighted avg       0.60      0.73      0.65        84
+
+
+--------------------------------------------------
+
+D)
+
+
+Accuracy: 0.7262
+
+Macro-average F1: 0.5568
+
+Weighted-average F1: 0.6451
+
+--------------------------------------------------
+
+6(d)
+(A) Accuracy: Mean = 0.5357142857142857, Variance =0.009070294784580496
+(B) Macro Average F1: Mean = 0.2862877366935206, Variance = 0.01829043644630675
+(C) Weighted Average F1: Mean = 0.3851644898240229 , Variance = 0.016886489790609308
+**********************************************************************
+
