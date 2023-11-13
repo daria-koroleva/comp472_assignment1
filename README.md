@@ -6,7 +6,9 @@
 
 - Marian Maksimos 40067018
 
+
 ## How to run experiments
+
 
 ### Requirements
  - To run the experiment it will be required to use Jupyter notebook or lab.
@@ -16,15 +18,16 @@
 	 - pip install -q pandas
 	 - pip install -q matplotlib 
 	 
-###  Runing the experimet abalone
+###  Runing the experiment abalone
  -  Open the file abalone.ipynb on Jupyter notebook or lab
  -  You will see the results from the latest execution 
  -  Or you can run all cells again.
 
-###  Runing the experimet penguins
+###  Runing the experiment penguins
  -  Open the file A1_penguins.ipynb on Jupyter notebook or lab
  -  You will see the results from the latest execution 
  -  Or you can run all cells again.
+
 
 ## Files for dataset Abalone
 
@@ -32,4 +35,5 @@
  - abalone-performance.txt
  - penguins-classes.jpg
  - penguin-performance.txt
+
  
