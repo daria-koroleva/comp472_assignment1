@@ -2,101 +2,101 @@
 (A) Base-DT-max_depth=8
 (B) Confusion Matrix:
 
- [[119  34 181]
- [ 41 237  63]
- [ 96  63 211]]
+[[153  26 120]
+ [ 64 215  49]
+ [208  55 155]]
 
-(C) Classification metrics:
+(C) (D) Classification metrics:
 
               precision    recall  f1-score   support
 
-           F       0.46      0.36      0.40       334
-           I       0.71      0.70      0.70       341
-           M       0.46      0.57      0.51       370
-(D)
-    accuracy                           0.54      1045
-   macro avg       0.55      0.54      0.54      1045
-weighted avg       0.54      0.54      0.54      1045
+           F       0.36      0.51      0.42       299
+           I       0.73      0.66      0.69       328
+           M       0.48      0.37      0.42       418
+
+    accuracy                           0.50      1045
+   macro avg       0.52      0.51      0.51      1045
+weighted avg       0.52      0.50      0.50      1045
 
 6(a)
-(A) Accuracy: Mean = 0.5443062200956937 , Variance = 6.739772441107147e-06
-(B) Macro Average F1: Mean = 0.5405770183510721 , Variance = 6.461818750533775e-06
-(C) Weighted Average F1: Mean = 0.5406910775793033 , Variance = 6.5184321836151785e-06
+(A) Accuracy: Mean = 0.4993301435406699, Variance =1.977976694672746e-06
+(B) Macro Average F1: Mean = 0.5084183300496194, Variance = 2.6142982254202346e-06
+(C) Weighted Average F1: Mean = 0.5027992931396796 , Variance = 2.7248999869011775e-06
 
 
 5(b)
-(A) Top-DT-criterion=gini-max_depth=10-min_samples_split=500
+(A) Top-DT-criterion=gini-max_depth=10-min_samples_split=200
 (B) Confusion Matrix:
 
- [[ 82  19 233]
- [  4 217 120]
- [ 75  44 251]]
+[[173  41  85]
+ [ 36 263  29]
+ [216  74 128]]
 
-(C) Classification metrics:
+(C) (D) Classification metrics:
 
               precision    recall  f1-score   support
 
-           F       0.51      0.25      0.33       334
-           I       0.78      0.64      0.70       341
-           M       0.42      0.68      0.52       370
+           F       0.41      0.58      0.48       299
+           I       0.70      0.80      0.75       328
+           M       0.53      0.31      0.39       418
 
-(D)
-    accuracy                           0.53      1045
-   macro avg       0.57      0.52      0.52      1045
-weighted avg       0.56      0.53      0.52      1045
+    accuracy                           0.54      1045
+   macro avg       0.54      0.56      0.54      1045
+weighted avg       0.55      0.54      0.53      1045
 
 6(b)
-(A) Accuracy: Mean = 0.5263157894736842 , Variance = 0.0
-(B) Macro Average F1: Mean = 0.5151954426066857 , Variance = 0.0
-(C) Weighted Average F1: Mean = 0.5164328782555966 , Variance = 0.0
+(A) Accuracy: Mean = 0.539712918660287, Variance =0.0
+(B) Macro Average F1: Mean = 0.5369406110942743, Variance = 0.0
+(C) Weighted Average F1: Mean = 0.5257411829701026 , Variance = 0.0
+
 
 5(c)
 (A) Base-MLP-hidden_layer_sizes=(100,100)-activation=logistic-solver=sdg
 (B) Confusion Matrix:
 
- [[  0  49 285]
- [  0 225 116]
- [  0  73 297]]
+[[  5  41 253]
+ [  1 222 105]
+ [  5  76 337]]
 
-(C)Classification metrics:
+(C) (D) Classification metrics:
 
               precision    recall  f1-score   support
 
-           F       0.00      0.00      0.00       334
-           I       0.65      0.66      0.65       341
-           M       0.43      0.80      0.56       370
-(D)
-    accuracy                           0.50      1045
-   macro avg       0.36      0.49      0.40      1045
-weighted avg       0.36      0.50      0.41      1045
+           F       0.45      0.02      0.03       299
+           I       0.65      0.68      0.67       328
+           M       0.48      0.81      0.61       418
+
+    accuracy                           0.54      1045
+   macro avg       0.53      0.50      0.43      1045
+weighted avg       0.53      0.54      0.46      1045
 
 6(c)
-(A) Accuracy: Mean = 0.4989473684210526 , Variance = 1.3186511297818394e-06
-(B) Macro Average F1: Mean = 0.402956065765857 , Variance = 8.481897049401659e-07
-(C) Weighted Average F1: Mean = 0.409884860927193 , Variance = 8.96164268006985e-07
+(A) Accuracy: Mean = 0.5379904306220096, Variance =4.542020558137242e-06
+(B) Macro Average F1: Mean = 0.42846765218879634, Variance = 2.0962105498351466e-05
+(C) Weighted Average F1: Mean = 0.4551203771374146 , Variance = 1.3350222524964849e-05
 
 
 5(d)
-(A) Top-MLP-activation=tanh-hidden_layer_sizes=(30, 50)-solver=adam
+(A) Top-MLP-activation=tanh-hidden_layer_sizes=(10, 10, 10)-solver=adam
 (B) Confusion Matrix:
 
- [[206  39  89]
- [ 49 265  27]
- [204  60 106]]
+[[144  18 137]
+ [ 27 239  62]
+ [221  51 146]]
 
-(C) Classification metrics:
+(C) (D) Classification metrics:
 
               precision    recall  f1-score   support
 
-           F       0.45      0.62      0.52       334
-           I       0.73      0.78      0.75       341
-           M       0.48      0.29      0.36       370
-(D)
-    accuracy                           0.55      1045
-   macro avg       0.55      0.56      0.54      1045
-weighted avg       0.55      0.55      0.54      1045
+           F       0.37      0.48      0.42       299
+           I       0.78      0.73      0.75       328
+           M       0.42      0.35      0.38       418
+
+    accuracy                           0.51      1045
+   macro avg       0.52      0.52      0.52      1045
+weighted avg       0.52      0.51      0.51      1045
 
 6(d)
-(A) Accuracy: Mean = 0.5429665071770334 , Variance = 0.00013794555985439927
-(B) Macro Average F1: Mean = 0.5218432689479722 , Variance = 0.0007389901849128405
-(C) Weighted Average F1: Mean = 0.5216999570515515 , Variance = 0.0005947989488100566
+(A) Accuracy: Mean = 0.5270813397129187, Variance =0.00015069252077562343
+(B) Macro Average F1: Mean = 0.5191310363202465, Variance = 0.000140358029691747
+(C) Weighted Average F1: Mean = 0.5132148408660051 , Variance = 0.00014422117799592327
